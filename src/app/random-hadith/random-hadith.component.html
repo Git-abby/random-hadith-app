@@ -1,0 +1,20 @@
+<div class="hadith-container">
+    <div *ngIf="randomHadith" class="hadith-content">
+        <blockquote class="hadith-text">
+          "{{ randomHadith.text }}"
+        </blockquote>
+        <p class="hadith-metadata">
+          <strong>Hadith Number:</strong> {{ randomHadith.hadithnumber }}<br>
+          <strong>Arabic Number:</strong> {{ randomHadith.arabicnumber }}
+        </p>
+        
+        <div class="hadith-grades">
+          <h3>Grades:</h3>
+          <ul>
+            <li *ngFor="let grade of randomHadith.grades">
+              <strong>{{ grade.name }}:</strong> {{ grade.grade }}
+            </li>
+          </ul>
+        </div> 
+    </div>
+    <button (click)="getAllHadithCollections()">Generate Hadith</button>   
