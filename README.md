@@ -49,7 +49,7 @@ ng serve
 - **JavaScript/TypeScript** 📜
 - **HTML5 & CSS3** 🎨
 - **Node.js** (if applicable) 🖥️
-- **API** - Uses a Hadith API for fetching Hadith content 📡
+- **[HADITH-API](https://github.com/fawazahmed0/hadith-api)** - Uses a Hadith API for fetching Hadith content 📡
 
 ## Contributing
 Contributions are welcome! Please fork this repository and submit a pull request.
