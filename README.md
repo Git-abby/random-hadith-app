@@ -1,27 +1,64 @@
-# RandomHadith
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.10.
+# Random Hadith App
 
-## Development server
+A simple app that displays a random Hadith from a collection. This project aims to provide easy access to Hadiths by showing one at random each time the app is used, making it both educational and engaging.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Code scaffolding
+## Features
+- Fetches and displays a random Hadith on demand.
+- Clean and minimalistic user interface.
+- Provides contextual information for each Hadith displayed.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
 
-## Build
+### Prerequisites
+- [Node.js](https://nodejs.org/) (for development)
+- [Git](https://git-scm.com/)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Clone the Repository
+```bash
+git clone https://github.com/Git-abby/random-hadith-app.git
+cd random-hadith-app
+```
 
-## Running unit tests
+### Install Dependencies
+Use npm or yarn to install project dependencies:
+```bash
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Run the App
+Start the app with:
+```bash
+ng serve
+```
 
-## Running end-to-end tests
+## Usage
+1. Open the app in your browser.
+2. Click the "Get Random Hadith" button to view a random Hadith.
+3. Refresh or click the button again for a new Hadith.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Technologies
+- **JavaScript/TypeScript**
+- **HTML5 & CSS3**
+- **Node.js** (if applicable)
+- **API** - Uses a Hadith API for fetching Hadith content
 
-## Further help
+## Contributing
+Contributions are welcome! Please fork this repository and submit a pull request.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
