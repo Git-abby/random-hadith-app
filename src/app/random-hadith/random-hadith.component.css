@@ -32,7 +32,8 @@
 .hadith-text {
     font-style: italic;
     font-size: 1.3rem;
-    color: #1C3D3D;
+    color: #000;
+    /* color: #1C3D3D; */
     margin: 1rem 0;
     line-height: 1.6;
 }
